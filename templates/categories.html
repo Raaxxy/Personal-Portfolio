@@ -4,7 +4,7 @@
 
 {% block content %}
 
-<div class='bg-gray-800 text-white pt-3 pb-24 md:px-10 lg:px-20 xl:px-40 2xl:px-72'>
+<div class='bg-gray-800 h-screen text-white pt-3 pb-24 md:px-10 lg:px-20 xl:px-40 2xl:px-72'>
     <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Categories</p>
     <div class="text-xl p-5 grid grid-cols-1 place-items-center items-center md:grid-cols-3 gap-x-8">
         {% for category in all_categories %}
@@ -13,8 +13,7 @@
                 <p class='text-4xl my-2'><i class="bi bi-tags text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 to-blue-500"></i></p>
                 <p class='text-base'>{{ category.category }}</p>
                 </div>
-            </div>
-           
+            </div>           
         {% endfor %}
     </div>
 </div>

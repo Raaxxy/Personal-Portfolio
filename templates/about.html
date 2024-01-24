@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+
+<div class='bg-gray-800 text-white p-3 md:px-10 lg:px-20 xl:px-40 2xl:px-72'>
+    <div class='m-6'>
+        <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>About Me</p>
+        <p class='text-justify'>
+            <span><span class='wave'>&#128075;</span> Hi ,</span><br><br>
+
+            Greetings! I'm Rahul, an enthusiastic and dedicated engineer fueled by a passion for building stuffs.<br><br>
+            
+            Ever since I was a kid, I would often wonder how things around me work, and the curious me would often break things to see how they are working from the base level. Events like these brought the engineering attitude in me, and ever since, I have been confident that I could do literally anything. My attitude, you ask? I live and die by the quote "Don't rest till the job is done," and I personally believe one could do whatever they want if they believe in themselves.<br><br>
+            
+            After completing my schooling in 2019, I decided to pursue my education in Computer Science while simultaneously engaging in IoT based freelance projects .  My journey has equipped me with a diverse set of technical skills, ranging from proficient use of programming languages like Python, Java, C/C++, HTML, CSS, Javascript, and SQL, to hands-on experience with frameworks such as Tailwind CSS, React, Django, Django rest Framework, PostgreSQL and Figma.<br><br>
+            
+            I've translated these skills into the creation of impactful real-world applications, including a robust e-coomerce marketplace, an effective microblogging platform like X (formerly Twitter), and a dynamic full-stack portfolio-blog website. Here are my <span class='group text-cyan-200'><a href='/projects' class='bg-left-bottom bg-gradient-to-r from-cyan-300 to-blue-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>projects</a></span> in action.<br><br>
+            
+            Beyond my current achievements, I remain committed to continuous growth, eagerly seeking new opportunities to broaden my knowledge and enhance my skills as a engineer. I am driven by the desire to contribute effectively to client projects, helping them realize their goals with tailored and innovative solutions.
+
+        </p>
+        <div class='my-10'>
+            <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Skills</p>
+            <div class='grid grid-cols-1 md:grid-cols-2 md:space-x-4 lg:space-x-10'>
+                <div>
+                    <div class='my-3'>
+                        <p class="progress-bar text-base font-medium my-3">Python</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="py bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    
+                    <div class='my-3'>
+                        <p class="text-base font-medium my-3">Javascript</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="js bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="text-base font-medium my-3">Java</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="java bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="progress-bar text-base font-medium my-3">React</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="rc bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div>
+                    <div class='my-3'>
+                        <p class="text-base font-medium my-3">Tailwind CSS</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="css bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="text-base font-medium my-3">HTML</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="html bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="progress-bar text-base font-medium my-3">Django</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="dj bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="progress-bar text-base font-medium my-3">Node.JS</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="nj bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <style>
+        
+        .progress-bar {
+            animation: progress-bar-animation 1s normal forwards;
+        }
+        @keyframes progress-bar-animation {
+            0%   {  width: 0%; }
+            100% {  width: 100%; }
+        }
+        .py {
+            animation: py-animation 3s normal forwards
+        }
+        @keyframes py-animation {
+            0%   {  width: 0%; }
+            100% {  width: 80%; }
+        }
+        .js {
+            animation: js-animation 3s normal forwards
+        }
+        @keyframes js-animation {
+            0%   {  width: 0%; }
+            100% {  width: 70%; }
+        }
+        .java {
+            animation: java-animation 3s normal forwards
+        }
+        @keyframes java-animation {
+            0%   {  width: 0%; }
+            100% {  width: 25%; }
+        }
+        .rc {
+            animation: react-animation 3s normal forwards
+        }
+        @keyframes react-animation {
+            0%   {  width: 0%; }
+            100% {  width: 4%; }
+        }
+        .css {
+            animation: css-animation 3s normal forwards
+        }
+        @keyframes css-animation {
+            0%   {  width: 0%; }
+            100% {  width: 80%; }
+        }
+        .html {
+            animation: html-animation 3s normal forwards;
+        }
+        @keyframes html-animation {
+            0%   {  width: 0%; }
+            100% {  width: 90%; }
+        }
+        .dj {
+            animation: dj-animation 3s normal forwards
+        }
+        @keyframes dj-animation {
+            0%   {  width: 0%; }
+            100% {  width: 95%; }
+        }
+        .nj {
+            animation: node-animation 3s normal forwards
+        }
+        @keyframes node-animation {
+            0%   {  width: 0%; }
+            100% {  width: 4%; }
+        }
+    </style>
+
+</div>
+
+{% endblock %}

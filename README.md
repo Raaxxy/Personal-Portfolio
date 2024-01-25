@@ -1,4 +1,4 @@
-![home](https://github.com/Raaxxy/Personal-Portfolio/assets/90283239/ea256e5c-2abb-46be-b10e-6ed530e65dc7)# Personal-Portfolio
+#  Personal-Portfolio
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -11,7 +11,7 @@
 
 ## Introduction
 Welcome to my personal portfolio and blog site! This project showcases my work, skills, and thoughts through a user-friendly website. Feel free to explore the various sections, including my blog, projects, and more.
-[home](https://github.com/Raaxxy/Personal-Portfolio/assets/90283239/b8b38cf6-a594-42e0-8ebd-1e5a82a640da)
+![home](https://github.com/Raaxxy/Personal-Portfolio/assets/90283239/ea256e5c-2abb-46be-b10e-6ed530e65dc7)
 
 ## Table of Content
   * [Introduction](#introduction)

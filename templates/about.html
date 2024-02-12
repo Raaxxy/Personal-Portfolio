@@ -10,7 +10,7 @@
         <p class='text-justify'>
             <span><span class='wave'>&#128075;</span> Hi ,</span><br><br>
 
-            Greetings! I'm Rahul, an enthusiastic and dedicated engineer fueled by a passion for building stuffs.<br><br>
+            Greetings! I'm Rahul, an enthusiastic and dedicated engineer fueled by a passion for building stuff.<br><br>
             
             Ever since I was a kid, I would often wonder how things around me work, and the curious me would often break things to see how they are working from the base level. Events like these brought the engineering attitude in me, and ever since, I have been confident that I could do literally anything. My attitude, you ask? I live and die by the quote "Don't rest till the job is done," and I personally believe one could do whatever they want if they believe in themselves.<br><br>
             
@@ -31,7 +31,27 @@
                             <div class="py bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
                         </div>  
                     </div>
-                    
+                    <div class='my-3'>
+                        <p class="progress-bar text-base font-medium my-3">Django</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="dj bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="text-base font-medium my-3">Tailwind CSS</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="css bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                        </div>  
+                    </div>
+                    <div class='my-3'>
+                        <p class="text-base font-medium my-3">HTML</p>
+                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="html bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full"></div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div>
                     <div class='my-3'>
                         <p class="text-base font-medium my-3">Javascript</p>
                         <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
@@ -48,27 +68,6 @@
                         <p class="progress-bar text-base font-medium my-3">React</p>
                         <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
                             <div class="rc bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
-                        </div>  
-                    </div>
-                </div>
-
-                <div>
-                    <div class='my-3'>
-                        <p class="text-base font-medium my-3">Tailwind CSS</p>
-                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
-                            <div class="css bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
-                        </div>  
-                    </div>
-                    <div class='my-3'>
-                        <p class="text-base font-medium my-3">HTML</p>
-                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
-                            <div class="html bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full"></div>
-                        </div>  
-                    </div>
-                    <div class='my-3'>
-                        <p class="progress-bar text-base font-medium my-3">Django</p>
-                        <div class="progress-bar w-full md:w-80 lg:w-full bg-gray-700 rounded-full h-2.5">
-                            <div class="dj bg-gradient-to-r from-cyan-300 to-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
                         </div>  
                     </div>
                     <div class='my-3'>
@@ -97,14 +96,35 @@
         }
         @keyframes py-animation {
             0%   {  width: 0%; }
-            100% {  width: 80%; }
+            100% {  width: 90%; }
+        }
+        .dj {
+            animation: dj-animation 3s normal forwards
+        }
+        @keyframes dj-animation {
+            0%   {  width: 0%; }
+            100% {  width: 95%; }
+        }
+        .css {
+            animation: css-animation 3s normal forwards
+        }
+        @keyframes css-animation {
+            0%   {  width: 0%; }
+            100% {  width: 90%; }
+        }
+        .html {
+            animation: html-animation 3s normal forwards;
+        }
+        @keyframes html-animation {
+            0%   {  width: 0%; }
+            100% {  width: 85%; }
         }
         .js {
             animation: js-animation 3s normal forwards
         }
         @keyframes js-animation {
             0%   {  width: 0%; }
-            100% {  width: 70%; }
+            100% {  width: 55%; }
         }
         .java {
             animation: java-animation 3s normal forwards
@@ -119,27 +139,6 @@
         @keyframes react-animation {
             0%   {  width: 0%; }
             100% {  width: 25%; }
-        }
-        .css {
-            animation: css-animation 3s normal forwards
-        }
-        @keyframes css-animation {
-            0%   {  width: 0%; }
-            100% {  width: 80%; }
-        }
-        .html {
-            animation: html-animation 3s normal forwards;
-        }
-        @keyframes html-animation {
-            0%   {  width: 0%; }
-            100% {  width: 90%; }
-        }
-        .dj {
-            animation: dj-animation 3s normal forwards
-        }
-        @keyframes dj-animation {
-            0%   {  width: 0%; }
-            100% {  width: 95%; }
         }
         .nj {
             animation: node-animation 3s normal forwards
